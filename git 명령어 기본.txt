@@ -1,0 +1,12 @@
+<git 명령어 기본>
+
+git init
+gitadd .
+git commit -m "first commit"
+git remote add origin https://github.com/Rinkle0930/test01.git
+
+git config --global user.email "junghwa0930@naver.com"
+git config --global user.name "Rinkle0930"
+
+git branch -M main
+git push -u origin main
